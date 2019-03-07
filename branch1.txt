@@ -1,15 +1,16 @@
-class Test
+lass Test
 {
     private:
         int data1;
-        
-public:  
+        float data2;  
+
+    public:  
         void function1()
         {   data1 = 2;  } 
 
-     
-         
-            
-            return data1;
-	    
-	    }
+        float function2()
+	{
+            data2 = 3.5;
+            return data2;
+        }
+   };
